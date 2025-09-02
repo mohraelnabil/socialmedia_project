@@ -21,6 +21,30 @@ Backend API :
 - 📌 **Rate Limiting 
 
 ---
+🔑 Auth
+POST /auth/signup 
+POST /auth/login
 
+👤 User
 
+GET /users  (Admin)
+GET /users/:id 
+PATCH /users/:id 
+DELETE /users/:id 
+
+📝 Post
+
+GET /posts 
+GET /posts/:id 
+POST /posts
+PATCH /posts/:id
+DELETE /posts/:id 
+
+---
+
+Postman Collections
+
+User.postman_collection.json
+Post.postman_collection.json
+Auth.postman_collection.json
 
