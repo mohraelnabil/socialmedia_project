@@ -1,0 +1,36 @@
+{
+  "info": {
+    "name": "Posts API",
+    "_postman_id": "22222222-aaaa-bbbb-cccc-222222222222",
+    "description": "Collection to test Posts API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Posts",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://localhost:3000/posts" }
+      }
+    },
+    {
+      "name": "Create Post",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"First Post\",\n  \"content\": \"Hello from API!\"\n}"
+        },
+        "url": { "raw": "http://localhost:3000/posts" }
+      }
+    },
+    {
+      "name": "Delete Post",
+      "request": {
+        "method": "DELETE",
+        "url": { "raw": "http://localhost:3000/posts/1" }
+      }
+    }
+  ]
+}

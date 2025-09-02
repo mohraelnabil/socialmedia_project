@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Updated Title",
+    "content": "Updated content",
+    "authorId": 1,
+    "createdAt": "2025-08-27T13:45:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Second Post",
+    "content": "Here is some more content for the blog.",
+    "authorId": 2,
+    "createdAt": "2025-08-27T14:00:00.000Z"
+  },
+  {
+    "id": 1756431817468,
+    "title": "patched title only",
+    "content": "This is content",
+    "authorId": "1",
+    "updatedAt": "2025-08-31T09:31:48.874Z",
+    "image": "https://ik.imagekit.io/ayq3bdgayp/uploads/1756632706828-ktakit_LLXYPOq_8.jpg"
+  }
+]

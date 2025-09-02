@@ -1,0 +1,36 @@
+{
+  "info": {
+    "name": "Users API",
+    "_postman_id": "11111111-aaaa-bbbb-cccc-111111111111",
+    "description": "Collection to test Users API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Users",
+      "request": {
+        "method": "GET",
+        "url": { "raw": "http://localhost:3000/users" }
+      }
+    },
+    {
+      "name": "Create User",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"hesham\",\n  \"age\": 30,\n  \"email\": \"hesham@gmail.com\"\n}"
+        },
+        "url": { "raw": "http://localhost:3000/users" }
+      }
+    },
+    {
+      "name": "Delete User",
+      "request": {
+        "method": "DELETE",
+        "url": { "raw": "http://localhost:3000/users/1" }
+      }
+    }
+  ]
+}
